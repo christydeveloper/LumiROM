@@ -41,7 +41,7 @@ DOWNLOAD_FIRMWARE() {
     gdown 1PpC1YS52Snlg7-OgLXFdB_2WyQYREfqv -O "${DOWN_DIR}/SM-A346E_OneUi85_firmware.zip"
 
     echo "Downloading vendor for ${STOCK_DEVICE} - 700-800MB"
-    wget -q "https://github.com/Luminous418/VendorsForMTKG80/releases/download/${STOCK_DEVICE}_latest/vendor.img" -O "${DOWN_DIR}/vendor.img"
+    wget -q "https://github.com/christydeveloper/VENDOR_SM-A325M_ZTO/releases/download/${STOCK_DEVICE}_latest/vendor.img" -O "${DOWN_DIR}/vendor.img"
 
 }
 
